@@ -1,0 +1,2 @@
+# zathurarc
+configurations for zathura
