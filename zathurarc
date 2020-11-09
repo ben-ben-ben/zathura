@@ -1,0 +1,50 @@
+# Clean page
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+#
+map D toggle_page_mode
+map r reload
+map R rotate
+#
+# zoom
+map <C-k> zoom in
+map <C-j> zoom out
+#map K zoom in
+#map J zoom out
+#
+# page half scroll
+map K scroll half-up
+map J scroll half-down
+#map <C-k> scroll half-up
+#map <C-j> scroll half-down
+#
+#map u scroll half-up
+#map h scroll half-down
+##
+#map e scroll half-up
+#map d scroll half-down
+#
+# defaults
+#map + zoom in
+#map - zoom out
+map L page-bottom
+map H page-top
+# t,y full page left and right
+#map <C-h> page-left
+#map <C-l> page-right
+#map <C-h> t
+#map <C-l> y
+#
+# display command line
+#set guioptions c
+#
+# re-color
+set recolor true
+set recolor-darkcolor "#FF0000"
+set recolor-lightcolor "#000000"
+
+# statusbar
+set statusbar-bg "#000000"
+set statusbar-fg "#FF0000"
+
